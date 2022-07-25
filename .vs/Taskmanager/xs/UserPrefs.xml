@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{A30AE1FE-D6E6-49C0-AD06-0E4AE4E3B1A2}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Taskmanager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Taskmanager/Controllers/TodoController.cs">
+    <Files>
+      <File FileName="Taskmanager/Views/Shared/_Layout.cshtml" Line="29" Column="111" />
+      <File FileName="Taskmanager/Views/Home/Index.cshtml" Line="5" Column="90" />
+      <File FileName="Taskmanager/Models/Todo.cs" Line="1" Column="1" />
+      <File FileName="Taskmanager/Controllers/TodoController.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Taskmanager" expanded="True">
+            <Node name="Taskmanager" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TodoController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
