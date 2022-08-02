@@ -10,6 +10,6 @@
     <None Remove="Views\Task\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Task\" />
+    <Folder Include="Views\Todo\" />
   </ItemGroup>
 </Project>

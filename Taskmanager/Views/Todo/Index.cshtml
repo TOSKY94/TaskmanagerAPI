@@ -1,0 +1,26 @@
+﻿@model  IEnumerable<Todo>
+
+
+<table>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Status</td>
+            <td>StartDate</td>
+            <td>EndDate</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model)
+            {
+        <tr>
+            <td>@item.name</td>
+            <td>@item.description</td>
+            <td>@item.status</td>
+            <td>@item.createDate</td>
+            <td>@item.dueDate</td>
+        </tr>
+            }
+    </tbody>
+</table>

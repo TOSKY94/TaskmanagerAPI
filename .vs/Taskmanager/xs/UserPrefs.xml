@@ -1,14 +1,18 @@
 ﻿<Properties StartupConfiguration="{A30AE1FE-D6E6-49C0-AD06-0E4AE4E3B1A2}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Taskmanager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Taskmanager/Controllers/TodoController.cs">
     <Files>
-      <File FileName="Taskmanager/Views/Shared/_Layout.cshtml" Line="29" Column="111" />
-      <File FileName="Taskmanager/Views/Home/Index.cshtml" Line="5" Column="90" />
-      <File FileName="Taskmanager/Models/Todo.cs" Line="1" Column="1" />
-      <File FileName="Taskmanager/Controllers/TodoController.cs" Line="19" Column="1" />
+      <File FileName="Taskmanager/Controllers/TodoController.cs" Line="46" Column="1" />
+      <File FileName="Taskmanager/Views/Todo/Index.cshtml" Line="22" Column="35" />
+      <File FileName="Taskmanager/Views/Todo/Create.cshtml" Line="1" Column="62" />
+      <File FileName="Taskmanager/Properties/launchSettings.json" Line="15" Column="48" />
+      <File FileName="Taskmanager/Program.cs" Line="27" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,8 +23,11 @@
                 <Node name="TodoController.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
+                <Node name="Todo" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -32,7 +39,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

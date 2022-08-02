@@ -9,22 +9,41 @@ using Taskmanager.Models;
 
 namespace Taskmanager.Controllers
 {
-    [Route("Controller")]
+
     public class TodoController : Controller
     {
-        // GET: /<controller>/
-        [HttpGet]
-        public IActionResult Index()
+        public List<Todo> todos { get; set; }
+
+        public TodoController()
         {
-            var tasks = new List<Todo>
+          this.todos = new List<Todo>
             {
                 new Todo {id=1, name="ASP.NET", description="ASP.NET api development", status="Not started", createDate=DateTime.Now, dueDate=DateTime.Now.AddDays(30)},
                 new Todo {id=2, name="Python Selenium", description="Selenium framework", status="In progress", createDate=DateTime.Now, dueDate=DateTime.Now.AddDays(60)},
                 new Todo {id=3, name="Django", description="Backend development", status="Completed", createDate=DateTime.Now, dueDate=DateTime.Now.AddDays(14)},
                 new Todo {id=4, name="PLSQL", description="SQL development", status="Not started", createDate=DateTime.Now, dueDate=DateTime.Now.AddDays(366)}
             };
+        }
 
-            return Json(tasks);
+        // GET: /<controller>/
+        [HttpGet]
+        public IActionResult Index()
+        {
+
+            return View(todos);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Todo todo)
+        {
+            todos.Add(todo);
+            return RedirectToAction("Index","Todo");
         }
 
     }

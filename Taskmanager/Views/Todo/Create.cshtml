@@ -1,0 +1,31 @@
+﻿<form method="post" asp-controller="todo" asp-action="create">
+    <h3>Create Todo</h3>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="enter name" />
+    </div>
+    <div>
+        <label for="desc">Description</label>
+        <textarea name="desc" placeholder="enter description here" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="status">Status</label>
+        <select name="status">
+            <option value="completed">Completed</option>
+            <option value="pending">Pending</option>
+            <option value="inProgress">In progress</option>
+        </select>
+    </div>
+    <div>
+        <label for="startDate">Start Date</label>
+        <input name="startDate" type="date"/>
+    </div>
+    <div>
+        <label for="endDate">End Date</label>
+        <input name="endDate" type="date" />
+    </div>
+    <div>
+        <input type="submit" value="create" />
+    </div>
+</form>
+
